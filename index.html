@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/image/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Cowboy Bebop</title>
+</head>
+<body>
+    
+    <div class="fundo-video"> 
+        <video id="video" autoplay loop muted>
+            <source src="./src/video/The Beauty Of Cowboy Bebop.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/image/logo-edward.png" alt="Logo Edward">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/image/titulo.png" alt="Título do Anime">
+
+            <p class="descricao">Uma equipe incomum de caçadores de recompensas tenta ganhar a vida viajando pelo espaço.
+                <br>
+                <br>
+                Direção: Shinichiro Watanabe
+                <br>
+                Estúdio de animação: Sunrise
+                <br>
+                Período de exibição: 3 de Abril de 1998 – 23 de Abril de 1999
+                <br>
+                Episódios: 26
+            </p>
+
+            <button class="botao-ost">OST Mix</button>
+        </div>
+
+        <div>
+            <img class="spike-faye" src="./src/image/spike-faye.png"/>
+        </div>
+        
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hXNWa9E9vN8" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
